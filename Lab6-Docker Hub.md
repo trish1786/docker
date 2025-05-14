@@ -23,6 +23,8 @@ docker login
 
 
 Push the Image:
+
+docker image tag <orginal-image-name>:tag <dockerhub-username/final-image-name>:tag
 ```
 docker push meharcloudthat/<image-name>:<tag>
 ```
