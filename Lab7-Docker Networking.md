@@ -10,7 +10,7 @@ docker run -d --name ct1 alpine sleep 3600
 docker run -d --name ct2 alpine sleep 3600
 ```
 ```
-docker ps
+docker ps / -a
 ```
 ```
 docker network inspect bridge
